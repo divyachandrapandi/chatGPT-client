@@ -1,6 +1,6 @@
 export const fetchResponse = async (chat) => {
     try {
-        const response = await fetch("https://chat-gpt-server-five.vercel.app/", {
+        const response = await fetch("https://chat-gpt-server-khaki.vercel.app/", {
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
